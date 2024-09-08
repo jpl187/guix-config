@@ -4,9 +4,9 @@
 
 (operating-system
   (host-name "nextcloud-container")
-  (timezone "UTC")
+  (timezone "Europe/Berlin")
 
-  (locale "en_US.utf8")
+  (locale "de_DE.utf8")
 
   (file-systems (cons (file-system
                        (mount-point "/")
