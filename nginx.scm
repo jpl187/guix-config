@@ -10,7 +10,6 @@
                       (stop #~(make-kill-destructor)))))))
 
 (define (nginx-config)
-  ;; Define the default nginx configuration file
   #~(begin
       (use-modules (guix build utils))
       (mkdir-p "/etc/nginx")
